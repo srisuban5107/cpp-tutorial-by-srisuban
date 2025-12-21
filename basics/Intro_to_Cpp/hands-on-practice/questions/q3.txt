@@ -1,0 +1,8 @@
+3. point out the errors in the following program:
+Using namespace std;
+int main( )
+{
+cout << “Enter a value ”;
+cin << num1 >> num2
+num+num2=sum;
+cout >> “\n The Sum= ” >> sum;
