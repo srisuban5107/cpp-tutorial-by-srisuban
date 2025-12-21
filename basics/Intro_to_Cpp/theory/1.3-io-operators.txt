@@ -1,0 +1,78 @@
+1.3 Input/Output (I/O) Operators in C++
+
+Input/Output operators are used to take input from the user and display output on the screen.
+C++ provides these operators through the iostream library.
+
+Include the library:
+#include <iostream>
+using namespace std;
+
+--------------------------------------------------
+
+1. Output Operator (<<)
+
+The output operator (<<), also called the insertion operator, is used with cout to display information on the screen.
+
+Syntax:
+cout << expression;
+
+Example:
+int a = 10;
+cout << "The value of a is " << a << endl;
+
+Explanation:
+- "The value of a is " is a string literal
+- << sends each value to the output
+- endl inserts a new line
+
+Multiple Expressions:
+cout << "a = " << a << ", b = " << b << endl;
+
+--------------------------------------------------
+
+2. Input Operator (>>)
+
+The input operator (>>), also called the extraction operator, is used with cin to take input from the user.
+
+Syntax:
+cin >> variable;
+
+Example:
+int age;
+cout << "Enter your age: ";
+cin >> age;
+cout << "Your age is " << age << endl;
+
+Multiple Inputs:
+int x, y;
+cin >> x >> y;
+
+--------------------------------------------------
+
+3. Notes on I/O Operators
+
+- Always include <iostream> and use namespace std or use std::cout/std::cin
+- Operators << and >> can be chained for multiple values
+- Input operator skips whitespace automatically
+- For string input with spaces, use getline(cin, variable);
+
+Example with getline:
+string name;
+cout << "Enter your full name: ";
+getline(cin, name);
+cout << "Hello, " << name << endl;
+
+--------------------------------------------------
+
+4. Common Mistakes
+
+- Forgetting to include <iostream>
+- Using cin >> for string with spaces
+- Not ending cout lines properly (missing endl or '\n')
+
+--------------------------------------------------
+
+Conclusion
+
+Input and Output operators are essential for interacting with the user.
+Understanding how to use cout and cin effectively is one of the first steps in writing C++ programs.

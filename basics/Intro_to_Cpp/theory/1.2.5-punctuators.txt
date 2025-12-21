@@ -1,0 +1,145 @@
+1.2.5 Punctuators in C++
+
+Punctuators are symbols used to separate, organize, and structure the elements of a C++ program.
+They help define the beginning and end of statements, blocks, and expressions.
+
+Punctuators do not perform operations like operators.
+They are used for syntax and program structure.
+
+--------------------------------------------------
+
+Common Punctuators in C++
+
+--------------------------------------------------
+
+1. Semicolon (;)
+
+The semicolon is used to terminate a statement.
+
+Example:
+int a = 10;
+
+--------------------------------------------------
+
+2. Comma (,)
+
+The comma is used to separate variables or expressions.
+
+Examples:
+int a, b, c;
+for(int i = 0, j = 10; i < j; i++, j--)
+
+--------------------------------------------------
+
+3. Parentheses ( )
+
+Parentheses are used to group expressions and in function calls.
+
+Examples:
+(a + b) * c
+sum(a, b)
+
+--------------------------------------------------
+
+4. Braces { }
+
+Braces are used to define blocks of code.
+
+Examples:
+if(a > b)
+{
+    cout << a;
+}
+
+--------------------------------------------------
+
+5. Square Brackets [ ]
+
+Square brackets are used with arrays.
+
+Example:
+int arr[5];
+
+--------------------------------------------------
+
+6. Colon (:)
+
+The colon is used in:
+- Ternary operator
+- Labels
+
+Examples:
+condition ? a : b;
+
+--------------------------------------------------
+
+7. Double Colon (::)
+
+The scope resolution operator is used to access global or class members.
+
+Example:
+std::cout
+
+--------------------------------------------------
+
+8. Dot (.)
+
+The dot operator is used to access members of a structure or class.
+
+Example:
+obj.value;
+
+--------------------------------------------------
+
+9. Arrow (->)
+
+The arrow operator is used to access members using pointers.
+
+Example:
+ptr->value;
+
+--------------------------------------------------
+
+10. Hash (#)
+
+The hash symbol is used in preprocessor directives.
+
+Examples:
+#include <iostream>
+#define PI 3.14
+
+--------------------------------------------------
+
+11. Question Mark (?)
+
+Used as part of the conditional (ternary) operator.
+
+Example:
+a > b ? a : b;
+
+--------------------------------------------------
+
+12. Ellipsis (...)
+
+The ellipsis is used for variable-length arguments.
+
+Example:
+int printf(const char *format, ...);
+
+--------------------------------------------------
+
+13. Angle Brackets < >
+
+Angle brackets are used in header files and templates.
+
+Examples:
+#include <iostream>
+vector<int>
+
+--------------------------------------------------
+
+Conclusion
+
+Punctuators play an important role in defining the structure of a C++ program.
+They improve code readability and ensure correct syntax.
+Understanding punctuators is essential for writing error-free programs.

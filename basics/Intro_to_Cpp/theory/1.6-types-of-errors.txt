@@ -1,0 +1,122 @@
+1.6 Types of Errors in C++
+
+Errors are problems in a program that prevent it from executing correctly.
+Understanding different types of errors helps programmers debug code efficiently.
+
+--------------------------------------------------
+
+1. Compilation Errors (Syntax Errors)
+
+Compilation errors occur when the code violates C++ syntax rules.
+The compiler detects these errors and prevents the program from compiling.
+
+Common Examples:
+- Missing semicolon
+int a = 10
+
+- Misspelled keywords
+intr main() { }
+
+- Incorrect parentheses or braces
+if(a > 5 {
+    cout << a;
+}
+
+Solution:
+- Check syntax carefully
+- Fix errors indicated by the compiler
+
+--------------------------------------------------
+
+2. Linker Errors
+
+Linker errors occur when the compiler generates object files, but the linker fails to combine them into an executable.
+
+Common Causes:
+- Undefined references to functions
+- Missing libraries
+- Multiple definitions
+
+Example:
+int main() {
+    cout << add(5, 3);  // add() not defined
+}
+
+Solution:
+- Ensure all functions are defined
+- Include necessary libraries
+- Avoid multiple definitions
+
+--------------------------------------------------
+
+3. Runtime Errors
+
+Runtime errors occur while the program is running, even if it compiles successfully.
+These errors cause the program to terminate unexpectedly.
+
+Common Examples:
+- Division by zero
+int a = 5, b = 0;
+cout << a / b;
+
+- Invalid memory access (pointers)
+- Array index out of bounds
+
+Solution:
+- Use checks and conditions
+- Handle exceptions where possible
+
+--------------------------------------------------
+
+4. Logical Errors
+
+Logical errors occur when the program runs without crashing but produces incorrect results.
+These errors are often the hardest to detect.
+
+Examples:
+- Incorrect formula or calculation
+int sum = a - b;  // should be a + b
+
+- Wrong loop conditions
+for(int i = 0; i <= n; i++) { ... } // may exceed bounds
+
+Solution:
+- Trace program logic carefully
+- Use debugging techniques
+
+--------------------------------------------------
+
+5. Semantic Errors
+
+Semantic errors are similar to logical errors but specifically violate the meaning of the program.
+The program may compile and run, but the output does not make sense.
+
+Example:
+int age = -5;  // logically invalid
+
+Solution:
+- Validate input and program logic
+- Apply correct rules for data types
+
+--------------------------------------------------
+
+6. Summary Table of Errors
+
+| Type of Error      | When Detected        | Example                                |
+|-------------------|-------------------|----------------------------------------|
+| Compilation Error  | Compile-time       | Missing semicolon, misspelled keyword |
+| Linker Error       | Link-time          | Undefined function, missing library   |
+| Runtime Error      | Run-time           | Division by zero, invalid pointer     |
+| Logical Error      | Run-time           | Wrong calculation, wrong loop logic   |
+| Semantic Error     | Run-time           | Invalid data, wrong meaning           |
+
+--------------------------------------------------
+
+Conclusion
+
+Understanding different types of errors helps in:
+- Writing correct code
+- Debugging efficiently
+- Producing reliable programs
+
+Beginners should practice detecting and fixing all types of errors to become confident programmers.

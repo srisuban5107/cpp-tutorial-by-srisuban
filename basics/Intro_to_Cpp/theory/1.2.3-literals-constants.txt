@@ -1,0 +1,189 @@
+1.2.3 Literals (Constants) in C++
+
+Literals, also called constants, are fixed values written directly in the source code.
+The value of a literal does not change during the execution of a program.
+
+Literals are different from variables. Variables can change their values, but literals cannot.
+
+--------------------------------------------------
+
+1. Integer Literals
+
+Integer literals represent whole numbers without any fractional part.
+
+Examples:
+10
+-25
+0
+1000
+
+Types of Integer Literals:
+
+1. Decimal Integer Literals (Base 10)
+These use digits from 0 to 9.
+Examples:
+10, 25, 100
+
+2. Octal Integer Literals (Base 8)
+These begin with 0.
+Digits allowed: 0 to 7
+Examples:
+012, 077
+
+3. Hexadecimal Integer Literals (Base 16)
+These begin with 0x or 0X.
+Digits allowed: 0–9 and A–F.
+Examples:
+0x1A, 0xFF
+
+Suffixes for Integer Literals:
+U or u  → unsigned
+L or l  → long
+LL or ll → long long
+
+Examples:
+10U
+100L
+200LL
+
+Note:
+Integer literals cannot use decimal points or exponent notation.
+
+--------------------------------------------------
+
+2. Floating-Point Literals
+
+Floating-point literals represent real numbers with fractional parts.
+
+Examples:
+3.14
+0.5
+-12.75
+
+Types of Floating-Point Literals:
+- float
+- double
+- long double
+
+Suffixes:
+f or F → float
+l or L → long double
+
+Examples:
+3.14f
+2.5L
+
+Scientific (Exponential) Notation
+
+Floating-point literals can also be written using scientific notation.
+This notation is used to represent very large or very small numbers.
+
+Syntax:
+mantissa e exponent
+
+Examples:
+1e3      → 1000.0
+5e2      → 500.0
+3.14e1   → 31.4
+2.5e-2   → 0.025
+
+Note:
+- Scientific notation literals are floating-point values.
+- They are treated as double by default.
+
+--------------------------------------------------
+
+3. Character Literals
+
+Character literals represent a single character enclosed in single quotes.
+
+Examples:
+'A'
+'9'
+'+'
+
+Escape Sequences:
+\n  → New line
+\t  → Tab
+\\  → Backslash
+\'  → Single quote
+
+Examples:
+'\n'
+'\t'
+
+--------------------------------------------------
+
+4. String Literals
+
+String literals are a sequence of characters enclosed in double quotes.
+
+Examples:
+"Hello"
+"C++ Programming"
+"Welcome\nWorld"
+
+Note:
+- String literals end with a null character '\0'.
+- They are stored as constant character arrays.
+
+--------------------------------------------------
+
+5. Boolean Literals
+
+Boolean literals represent logical values.
+
+Examples:
+true
+false
+
+They are commonly used in conditional and logical expressions.
+
+--------------------------------------------------
+
+6. Constants Using const Keyword
+
+Constants can be declared using the const keyword.
+
+Example:
+const int MAX = 100;
+
+Features:
+- Value cannot be modified after initialization
+- Provides type safety
+- Preferred over #define
+
+--------------------------------------------------
+
+7. Symbolic Constants Using #define
+
+Symbolic constants are defined using preprocessor directives.
+
+Example:
+#define PI 3.14159
+
+Note:
+- No type checking is performed
+- Replaced before compilation
+
+--------------------------------------------------
+
+Difference Between Literals and Constants
+
+Literals:
+- Fixed values written directly in code
+- Do not have names
+Examples: 10, 3.14, 'A'
+
+Constants:
+- Named values declared using const or #define
+- Improve readability
+Examples: const int MAX = 100;
+
+--------------------------------------------------
+
+Conclusion
+
+Literals and constants are essential elements of C++ programs.
+They help represent fixed values clearly and safely.
+Understanding literals is important for writing correct and efficient programs.

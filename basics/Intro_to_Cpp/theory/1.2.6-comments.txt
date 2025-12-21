@@ -1,0 +1,29 @@
+1.2.6 Comments in C++
+
+Comments are non-executable statements in a program.
+They are used to describe the code and make it more readable.
+The compiler ignores comments during execution.
+
+Types of Comments:
+
+1. Single-line Comment
+- Starts with //
+- Extends to the end of the line
+
+Example:
+int a = 10; // This is a single-line comment
+
+2. Multi-line Comment
+- Starts with /* and ends with */
+- Can span multiple lines
+
+Example:
+/*
+This is a
+multi-line comment
+*/
+
+Purpose of Comments:
+- Explain code logic
+- Make code readable
+- Temporarily disable code for testing

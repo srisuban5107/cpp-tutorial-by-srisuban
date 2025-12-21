@@ -1,0 +1,89 @@
+1.5 Developer Environment for C++
+
+A developer environment is the set of tools and software required to write, compile, and execute C++ programs.
+A proper environment helps programmers code efficiently and debug errors effectively.
+
+--------------------------------------------------
+
+1. Components of a C++ Developer Environment
+
+1.1 Text Editor / IDE
+- Used to write the C++ source code.
+- Examples:
+  - IDEs: Visual Studio, Code::Blocks, Dev C++, Eclipse, CLion
+  - Text Editors: Notepad++, Sublime Text, VS Code
+
+1.2 Compiler
+- Converts C++ source code into machine code (executable file).
+- Examples:
+  - GCC (GNU Compiler Collection)
+  - Clang
+  - MSVC (Microsoft Visual C++ Compiler)
+
+1.3 Linker
+- Combines object files and libraries to create the final executable.
+
+1.4 Debugger
+- Used to identify and fix errors in programs.
+- Examples:
+  - GDB (GNU Debugger)
+  - IDE built-in debuggers
+
+--------------------------------------------------
+
+2. Setting up a C++ Developer Environment
+
+2.1 Windows
+- Install IDE (Code::Blocks, Visual Studio)
+- Or install compiler separately (GCC via MinGW)
+- Configure PATH for compiler if needed
+- Write code → compile → run
+
+2.2 Linux
+- Install GCC via terminal: sudo apt install g++
+- Use editors like VS Code, Sublime, or gedit
+- Compile: g++ program.cpp -o program
+- Run: ./program
+
+2.3 MacOS
+- Install Xcode or command line tools
+- Use terminal: g++ program.cpp -o program
+- Run: ./program
+
+--------------------------------------------------
+
+3. Recommended IDE Features
+
+- Syntax highlighting
+- Auto-completion
+- Code navigation
+- Integrated debugger
+- Build and run in a single click
+
+--------------------------------------------------
+
+4. Example: Running a Program in Developer Environment
+
+1. Open IDE or text editor
+2. Write C++ code:
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, Developer Environment!" << endl;
+    return 0;
+}
+
+3. Save the file as hello.cpp
+4. Compile the program
+5. Execute the program
+Output:
+Hello, Developer Environment!
+
+--------------------------------------------------
+
+Conclusion
+
+A good developer environment makes learning and writing C++ easier and faster.
+Beginners should focus on setting up a simple environment and gradually explore advanced features.
+Understanding the environment is essential before writing complex programs.

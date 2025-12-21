@@ -1,0 +1,222 @@
+1.2.4 Operators in C++
+
+Operators are symbols used to perform operations on variables and values.
+They tell the compiler what action should be performed on the operands.
+
+Example:
+a + b
+Here, + is an operator and a, b are operands.
+
+--------------------------------------------------
+
+1. Arithmetic Operators
+
+Arithmetic operators are used to perform mathematical operations.
+
+Operators:
++   Addition
+-   Subtraction
+*   Multiplication
+/   Division
+%   Modulus (remainder)
+
+Examples:
+int a = 10, b = 3;
+a + b   → 13
+a - b   → 7
+a * b   → 30
+a / b   → 3
+a % b   → 1
+
+Note:
+Modulus operator works only with integers.
+
+--------------------------------------------------
+
+2. Relational Operators
+
+Relational operators are used to compare two values.
+They return either true or false.
+
+Operators:
+==   Equal to
+!=   Not equal to
+>    Greater than
+<    Less than
+>=   Greater than or equal to
+<=   Less than or equal to
+
+Example:
+a > b
+a == b
+
+--------------------------------------------------
+
+3. Logical Operators
+
+Logical operators are used to combine multiple conditions.
+
+Operators:
+&&   Logical AND
+||   Logical OR
+!    Logical NOT
+
+Examples:
+(a > 5 && b < 10)
+(a == 0 || b == 1)
+!(a > b)
+
+--------------------------------------------------
+
+4. Assignment Operators
+
+Assignment operators are used to assign values to variables.
+
+Operators:
+=    Simple assignment
++=   Add and assign
+-=   Subtract and assign
+*=   Multiply and assign
+/=   Divide and assign
+%=   Modulus and assign
+
+Example:
+int a = 10;
+a += 5;   // a = 15
+
+--------------------------------------------------
+
+5. Increment and Decrement Operators
+
+These operators increase or decrease the value of a variable by 1.
+
+Operators:
+++   Increment
+--   Decrement
+
+Types:
+Pre-increment   (++a)
+Post-increment  (a++)
+
+Pre-decrement   (--a)
+Post-decrement  (a--)
+
+Example:
+int a = 5;
+++a;  // a becomes 6
+a++;  // a becomes 7
+
+--------------------------------------------------
+
+6. Bitwise Operators
+
+Bitwise operators work on bits of integers.
+
+Operators:
+&    Bitwise AND
+|    Bitwise OR
+^    Bitwise XOR
+~    Bitwise NOT
+<<   Left shift
+>>   Right shift
+
+Example:
+a & b
+a << 1
+
+--------------------------------------------------
+
+7. Conditional (Ternary) Operator
+
+The conditional operator is a shorthand for if–else.
+
+Syntax:
+condition ? expression1 : expression2;
+
+Example:
+int max = (a > b) ? a : b;
+
+--------------------------------------------------
+
+8. sizeof Operator
+
+The sizeof operator returns the size of a data type or variable in bytes.
+
+Examples:
+sizeof(int)
+sizeof(a)
+
+--------------------------------------------------
+
+9. Comma Operator
+
+The comma operator allows multiple expressions in a single statement.
+
+Example:
+int a = (b = 3, b + 2);
+
+--------------------------------------------------
+
+10. Pointer Operators
+
+These operators are used with pointers.
+
+Operators:
+&   Address-of operator
+*   Dereference operator
+
+Example:
+int a = 10;
+int *p = &a;
+
+--------------------------------------------------
+
+11. Member Access Operators
+
+Used to access members of structures or classes.
+
+Operators:
+.    Dot operator
+->   Arrow operator
+
+Example:
+obj.value
+ptr->value
+
+--------------------------------------------------
+
+12. Scope Resolution Operator
+
+Used to access global variables or class members.
+
+Operator:
+::
+
+Example:
+std::cout
+
+--------------------------------------------------
+
+13. Type Cast Operator
+
+Used to convert one data type into another.
+
+Example:
+int a = (int)3.14;
+
+--------------------------------------------------
+
+Operator Precedence and Associativity
+
+Operator precedence determines the order of evaluation.
+Associativity determines the direction of evaluation.
+
+Example:
+a + b * c   // multiplication first
+
+--------------------------------------------------
+
+Conclusion
+
+Operators are fundamental components of C++ programming.
+Understanding operators and their usage is essential for writing correct and efficient programs.

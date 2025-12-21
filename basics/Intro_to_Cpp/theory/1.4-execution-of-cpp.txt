@@ -1,0 +1,103 @@
+1.4 Execution of a C++ Program
+
+Understanding the execution of a C++ program is important for beginners.
+Every program follows a series of steps from writing code to producing output.
+
+--------------------------------------------------
+
+1. Steps in Execution
+
+1. Writing the Program
+- The programmer writes the source code in a text editor or IDE.
+- The file is saved with a .cpp extension.
+
+Example:
+hello.cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+
+--------------------------------------------------
+
+2. Preprocessing
+- The preprocessor handles all the directives starting with #
+- Examples: #include, #define
+- It replaces header files and macros before compilation.
+
+Example:
+#include <iostream>
+is replaced by the actual content of iostream.
+
+--------------------------------------------------
+
+3. Compilation
+- The compiler converts the preprocessed code into machine-readable object code.
+- It checks for syntax errors, type errors, and other compile-time issues.
+- If errors exist, the program will not compile until they are fixed.
+
+--------------------------------------------------
+
+4. Linking
+- The linker combines all object code files and library code into a single executable.
+- Ensures all function calls and references are correctly connected.
+- Produces the final executable file (example: hello.exe).
+
+--------------------------------------------------
+
+5. Execution / Running the Program
+- The operating system loads the executable into memory.
+- The program starts execution from the main() function.
+- Each statement is executed sequentially unless control statements modify the flow.
+- Output is displayed using cout or other output mechanisms.
+
+--------------------------------------------------
+
+6. Summary of Flow
+
+Source Code (.cpp)
+      ↓
+Preprocessing
+      ↓
+Compilation
+      ↓
+Linking
+      ↓
+Executable Program
+      ↓
+Execution (Output on Screen)
+
+--------------------------------------------------
+
+7. Example Execution
+
+Source Code:
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 5, b = 10;
+    int sum = a + b;
+    cout << "Sum = " << sum << endl;
+    return 0;
+}
+
+Execution Output:
+Sum = 15
+
+Explanation:
+- Preprocessor includes iostream
+- Compiler converts code into object code
+- Linker creates executable
+- Program runs and displays the sum
+
+--------------------------------------------------
+
+Conclusion
+
+Understanding the execution process helps programmers debug errors efficiently.
+It explains how C++ code transforms from text into working programs.
+Knowing this flow is fundamental for beginners learning C++.

@@ -1,0 +1,30 @@
+1-Introduction to C++
+
+What is C++?
+C++ is a general-purpose programming language developed as an extension of the C language.
+It supports both procedural and object-oriented programming.
+C++ is known for its high performance and control over system resources.
+
+History of C++
+C++ was created by Bjarne Stroustrup at Bell Labs in the early 1980s.
+It was originally called "C with Classes".
+Over time, C++ evolved with many new features and standards.
+
+Why use C++?
+- High performance and speed
+- Low-level memory control
+- Supports Object-Oriented Programming
+- Widely used in system software and applications
+
+Where is C++ used?
+- Operating systems
+- Game development
+- Embedded systems
+- Desktop applications
+- Competitive programming
+
+Features of C++
+- Fast execution
+- Portable
+- Rich standard library (STL)
+- Supports both low-level and high-level programming

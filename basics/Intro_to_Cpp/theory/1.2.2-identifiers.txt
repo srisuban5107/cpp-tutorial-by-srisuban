@@ -1,0 +1,48 @@
+1.2.2 Identifiers in C++
+
+Identifiers are names given to program elements such as variables, functions, arrays, classes, and objects.
+They are used to identify these elements uniquely in a program.
+
+Examples of Identifiers
+sum
+totalMarks
+studentName
+calculateResult
+main
+
+Rules for Naming Identifiers
+- An identifier must begin with a letter (a–z or A–Z) or an underscore (_).
+- It cannot start with a digit.
+- Only letters, digits, and underscore are allowed.
+- Special characters such as @, #, $, % are not allowed.
+- Keywords cannot be used as identifiers.
+- Identifiers are case-sensitive (sum and Sum are different).
+
+Valid Identifiers
+count
+total_sum
+_marks
+student1
+averageScore
+
+Invalid Identifiers
+1total        (starts with a digit)
+total-marks  (contains special character)
+float        (keyword)
+total marks  (contains space)
+
+Naming Conventions
+- Use meaningful names.
+- Use camelCase for variable and function names.
+- Use PascalCase for class names.
+- Use uppercase letters for constants.
+
+Examples:
+totalMarks      → variable
+calculateSum()  → function
+StudentRecord   → class
+MAX_SIZE        → constant
+
+Conclusion
+Identifiers improve program readability and maintainability.
+Choosing proper identifier names is an important programming practice.

@@ -1,0 +1,12 @@
+1.2.8 Whitespace and Newlines in C++
+
+Whitespace characters are spaces, tabs, and newlines.
+They are used to separate tokens and improve code readability.
+
+Examples:
+int a = 10;     // spaces between tokens
+for(int i=0; i<5; i++) { }  // spaces and newline
+
+Note:
+- The compiler ignores extra whitespace and newlines.
+- Proper indentation and spacing are for humans to read code easily.

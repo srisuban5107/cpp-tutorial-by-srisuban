@@ -1,0 +1,30 @@
+1.2.1 Keywords in C++
+
+Keywords are reserved words in C++ that have predefined meanings.
+They are used to perform specific operations and define the structure of a C++ program.
+Keywords cannot be used as identifiers such as variable names or function names.
+
+Characteristics of Keywords
+- Keywords have fixed meanings.
+- Their meaning cannot be changed by the programmer.
+- They are always written in lowercase.
+- They help the compiler understand program logic.
+
+Examples of Common C++ Keywords
+int, float, double, char
+if, else, switch
+for, while, do
+break, continue, return
+class, public, private, protected
+const, static, virtual
+try, catch, throw
+
+Usage of Keywords
+- Used to declare variables and data types
+- Used to control program flow
+- Used in object-oriented programming
+- Used in exception handling
+
+Note
+C++ has many keywords, and the number may increase with new language standards.
+Programmers should not use keywords as identifiers.

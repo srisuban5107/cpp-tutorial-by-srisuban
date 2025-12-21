@@ -1,0 +1,18 @@
+0.3.7 Preprocessor Directives in C++
+
+Preprocessor directives are instructions given to the compiler before compilation.
+They begin with the '#' symbol.
+
+Common Preprocessor Directives:
+- #include : To include header files
+- #define  : To define constants or macros
+- #ifdef, #ifndef, #endif : Conditional compilation
+
+Example:
+#include <iostream>
+#define PI 3.14
+
+Purpose:
+- Include libraries
+- Define symbolic constants
+- Enable conditional compilation

@@ -1,0 +1,54 @@
+1.2 Lexical Units (Tokens) in C++
+
+Lexical units, also called tokens, are the smallest meaningful elements of a C++ program.
+During compilation, the compiler divides the source code into tokens to understand and analyze the program structure.
+
+Types of Tokens in C++
+
+1. Keywords
+Keywords are reserved words that have predefined meanings in C++.
+They cannot be used as identifiers.
+
+Examples:
+int, float, double, char, if, else, for, while, return, class, break, continue
+
+2. Identifiers
+Identifiers are names given to program elements such as variables, functions, arrays, and classes.
+
+Examples:
+sum, totalMarks, studentName, calculateResult
+
+Rules for Identifiers:
+- Must begin with a letter or underscore (_)
+- Cannot start with a digit
+- Cannot be a keyword
+- Only letters, digits, and underscore are allowed
+
+3. Literals
+Literals are fixed values written directly in the program source code.
+The value of a literal does not change during program execution.
+
+Types of Literals:
+- Integer literals: 10, -25, 100
+- Floating-point literals: 3.14, 0.75
+- Character literals: 'A', '9'
+- String literals: "Hello", "C++"
+- Boolean literals: true, false
+
+4. Operators
+Operators are symbols used to perform operations on variables and values.
+
+Examples:
+Arithmetic operators: +, -, *, /, %
+Relational operators: ==, !=, <, >, <=, >=
+Logical operators: &&, ||, !
+
+5. Punctuators (Separators)
+Punctuators are symbols used to separate statements and expressions and to define program structure.
+
+Examples:
+;  ,  ( )  { }  [ ]
+
+Conclusion
+Every C++ program is formed using these lexical units.
+Understanding tokens is essential for learning the basic structure and syntax of C++ programs.
