@@ -1,0 +1,3 @@
+Write a short program to print
+following series:
+1 4 7 10...... 40

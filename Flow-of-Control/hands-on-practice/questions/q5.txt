@@ -1,0 +1,14 @@
+5. Programs to produce the following design using nested loops
+(a) 
+A
+A B
+A B C
+A B C D
+A B C D E
+A B C D E F
+(b)
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5

@@ -1,0 +1,12 @@
+2. Program to print whether a given
+character is an uppercase or a
+lowercase character or a digit or any
+other character. use ASCII codes for it.
+The ASCII codes are as given below:
+Characters ASCII Range
+0' - '9' 48 - 57
+'A' - 'Z' 65 - 90
+'a' - 'z' 97 - 122
+other characters 0- 255 excluding the
+above mentioned
+codes.
