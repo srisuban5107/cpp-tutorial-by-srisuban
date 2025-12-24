@@ -1,0 +1,53 @@
+USING NAMESPACE STD
+
+In C++, the standard library contains predefined objects and functions such as
+cout, cin, endl, string, etc. All these are defined inside a namespace called
+"std".
+
+A namespace is used to group related names together and to avoid name conflicts
+in large programs.
+
+The statement:
+
+using namespace std;
+
+tells the compiler that we want to use all the names present inside the std
+namespace directly, without writing std:: before each name.
+
+Example without using namespace std:
+
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World";
+    std::cin.get();
+    return 0;
+}
+
+Example with using namespace std:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello World";
+    return 0;
+}
+
+Advantages:
+- Makes the program simple and easy to read
+- Reduces repetitive use of std::
+
+Disadvantages:
+- May cause name conflicts in large programs
+
+Usage:
+- Recommended for beginners and small programs
+- In large or professional programs, it is better to use std:: explicitly
+
+Conclusion:
+The statement using namespace std; allows programmers to use standard library
+objects like cout and cin easily and is commonly used in beginner-level C++
+programs.
