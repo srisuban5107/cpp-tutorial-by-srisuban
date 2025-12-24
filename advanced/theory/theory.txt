@@ -1,0 +1,116 @@
+Advanced / Modern C++ – Theory
+
+1. File Handling (fstream)
+
+Definition:
+File handling allows reading from and writing to files. It is useful for data storage, logging, and processing information.
+
+Key Classes:
+- ofstream → write to file
+- ifstream → read from file
+- fstream → read & write both
+
+Important Functions:
+- open() → open file
+- close() → close file
+- getline() → read line from file
+- << and >> operators → write/read formatted data
+
+Example Use:
+- Storing marks of students
+- Reading configuration files
+
+--------------------------------------------------
+
+2. Standard Template Library (STL)
+
+Definition:
+STL provides pre-built data structures and algorithms for efficiency.
+
+Main Components:
+1. Containers → store data
+   - vector → dynamic array
+   - map → key-value pair
+   - set, deque, list (optional)
+
+2. Algorithms → operate on containers
+   - sort(), max_element(), min_element(), reverse(), etc.
+
+3. Iterators → traverse containers
+   - begin(), end(), rbegin(), rend()
+
+Example Use:
+- Storing and processing large datasets
+- Fast data manipulation
+
+--------------------------------------------------
+
+3. Modern C++ Features
+
+Key Features:
+- auto → compiler infers variable type
+- nullptr → modern replacement for NULL
+- Lambda functions → inline anonymous functions
+- Range-based for loops → iterate containers easily
+
+Example:
+auto x = 10;
+int nums[] = {1,2,3};
+for(auto n : nums) { ... }
+auto square = [](int n){ return n*n; };
+
+--------------------------------------------------
+
+4. Pointers
+
+Definition:
+A pointer stores the memory address of a variable.
+
+Key Concepts:
+- * → dereference
+- & → address-of operator
+- Pointer types: pointer to variable, pointer to array, pointer to function, pointer to object
+
+Example Uses:
+- Dynamic memory allocation
+- Function pointers
+- Accessing class objects
+
+--------------------------------------------------
+
+5. References
+
+Definition:
+A reference is an alias for an existing variable.
+Syntax: int &ref = var;
+
+Use:
+- Pass by reference to functions → efficient memory usage
+- Modify original variable
+
+--------------------------------------------------
+
+6. Dynamic Memory
+
+Definition:
+Allocate memory at runtime using new and release using delete.
+
+Syntax:
+- Single variable: int *p = new int;
+- Array: int *arr = new int[5];
+- Release: delete p; delete[] arr;
+
+--------------------------------------------------
+
+7. Const, Inline, and Type Casting
+
+Const:
+- const int a = 10; → value cannot change
+
+Inline Function:
+- inline int square(int x) { return x*x; }
+- Reduces function call overhead
+
+Type Casting:
+- Convert data type manually
+- Syntax: (int)3.14 or static_cast<int>(3.14)
