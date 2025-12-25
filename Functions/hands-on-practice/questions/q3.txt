@@ -1,0 +1,2 @@
+3. Program that checks whether a given character is an alphabet or not. If it is an alphabet,
+whether it is lowercase character or uppercase character? Include required header files.

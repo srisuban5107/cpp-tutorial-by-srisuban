@@ -1,0 +1,6 @@
+1. Program that reads two strings and appends the first string to the second. For example,
+if the first string is entered as Tamil and second string as nadu, the program should print
+Tamilnadu. Use string library header.
+
+
+

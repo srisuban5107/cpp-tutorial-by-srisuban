@@ -1,0 +1,2 @@
+5. Program that invokes a function calc ( ) which intakes two integers and an arithmetic
+operator and prints the corresponding result.

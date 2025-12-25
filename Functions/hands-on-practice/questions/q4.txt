@@ -1,0 +1,4 @@
+4. Write definition for a function sumseries ( ) in c++ with two arguments/ parameters -
+double x and int n. The function should return a value of type double and it should perform
+sum of the following series:
+x-x2 /3! + x3 / 5! - x4 / 7! + x5 / 9! -... upto n terms.
