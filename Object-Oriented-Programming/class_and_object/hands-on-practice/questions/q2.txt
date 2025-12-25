@@ -1,0 +1,16 @@
+Define a class RESORT with the
+following description in C++ :
+Private members:
+Rno // Data member to store room number
+Name //Data member to store user name
+Charges //Data member to store per day charge
+Days //Data member to store the number of days
+Compute( )/*A function to calculate total amount
+as Days * Charges and if the total amount exceeds
+11000 then total amount is 1.02 * Days *Charges */
+Public member:
+GetInfo( ) /* Function to Read the information
+like name , room no, charges and days*/
+DispInfo( )/* Function to display all entered
+details and total amount calculated using COMPUTE
+function*/
