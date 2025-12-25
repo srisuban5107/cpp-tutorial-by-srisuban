@@ -1,0 +1,1 @@
+Program to find sum and average of array elements

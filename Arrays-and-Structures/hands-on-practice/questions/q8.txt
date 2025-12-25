@@ -1,0 +1,1 @@
+Program to find total and average marks using structure
